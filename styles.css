@@ -1,0 +1,111 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  overflow: scroll;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+#checkbox-menu,
+.toggle {
+    display: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    align-self: center;
+    font-size: 13px;
+    padding: 10px 15px;
+}
+
+.menu li a:hover{
+    background: #ECE80C;
+    border-radius: 40px;
+}
+
+.menu li a.logo {
+    font-size: 30px;
+    margin-right: 245px;
+}
+
+.menu li a.contacts {
+    margin-left: 245px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100px;
+    overflow-x: hidden;
+    height: auto;
+    background-color: bisque;
+    align-items: center;
+    justify-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.product{
+    margin: 30px;
+    background-color: aquamarine;
+    height: auto;
+    width:min-content;
+    display: inline-block;
+    border-radius: 10px;
+}
+.image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
+}
+.info-price{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.choose{
+    border: none;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8bc34a;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.price {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.description{
+    line-height: initial;
+    width: inherit;
+}

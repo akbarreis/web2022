@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: linear-gradient(
+    to right,
+    coral 0%,
+    coral 50%,
+    cadetblue 50%,
+    cadetblue 100%
+
+    );
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+#checkbox-menu,
+.toggle {
+    display: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    align-self: center;
+    font-size: 13px;
+    padding: 10px 15px;
+}
+
+.menu li a:hover{
+    background: #ECE80C;
+    border-radius: 40px;
+}
+
+.menu li a.logo {
+    font-size: 30px;
+    margin-right: 245px;
+}
+
+.menu li a.contacts {
+    margin-left: 245px;
+}
+
+
+.map {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+
+}
+
+.nameofcontact {
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.pizzapng{
+    width: 150px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -350px;
+
+}
+.pizza2png{
+    width: 150px;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.pizza3png{
+    width: 150px;
+    height: auto;
+    margin-left: -150px;
+    margin-top: -80px;
+}
+.pizza4png{
+     width: 150px;
+     height: auto;
+     margin-left: -200px;
+     margin-top: -40px;
+ }
+.location{
+    text-align: left;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: cadetblue;
+}
+
+.menu li a.contacts {
+    margin-left: 245px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    mix-width: 1100px;
+    widows: 100%;
+}
+
+.intro {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro-img {
+
+    width: 965px;
+    height: 640px;
+}
+
+.intro .intro-text {
+    position: absolute;
+    font-size: 62px;
+    right: 750px;
+    top: 220px;
+}
+
+.intro-contacts{
+    background-color: #ECE80C;
+    max-width: 590px;
+    position: absolute ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.map {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+
+}
+
+.nameofcontact {
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.pizzapng{
+    width: 150px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -350px;
+
+}
+.pizza2png{
+    width: 150px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.pizza3png{
+    width: 150px;
+    height: auto;
+    margin-left: 400px;
+    margin-top: -150px;
+    rotate: 30deg;
+}
+.pizza4png{
+     width: 150px;
+     height: auto;
+     margin-left: 200px;
+     margin-top: -10px;
+ }
+
+
